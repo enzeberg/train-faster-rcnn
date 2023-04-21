@@ -1,0 +1,20 @@
+TRAIN_DIR_IMAGES: "D:/CV/datasets/fishes_voc/train"
+TRAIN_DIR_LABELS: "D:/CV/datasets/fishes_voc/train"
+VALID_DIR_IMAGES: "D:/CV/datasets/fishes_voc/valid"
+VALID_DIR_LABELS: "D:/CV/datasets/fishes_voc/valid"
+
+CLASSES:
+    [
+        "__background__",
+        "Clownfish",
+        "Orchid Dottyback",
+        "Rainbowfish",
+        "Yellow Tang",
+        "Zebrafish",
+    ]
+
+# Number of classes (object classes + 1 for background class in Faster R-CNN)
+NC: 6
+
+# Whether to save the predictions of the validation set while training.
+SAVE_VALID_PREDICTION_IMAGES: True
